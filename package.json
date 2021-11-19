@@ -2,4 +2,5 @@
   "bundle": "NODE_ENV=production webpack --output-file bundledFile.js",
   "copy": "cp package.json dist/ && cp README.md dist/ && cp .npmrc dist/",
   "build": "npm run build"
+  "command": "npm run build"
 }
