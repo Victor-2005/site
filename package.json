@@ -1,5 +1,11 @@
-{
-  "bundle": "NODE_ENV=production webpack --output-file bundledFile.js",
-  "copy": "cp package.json dist/ && cp README.md dist/ && cp .npmrc dist/",
-  "build": "npm run build"
-}
+{ 
+ "name": "Site", 
+ "version": "1.0.0", 
+ "description": "", 
+ "main": "package.json", 
+ "scripts": { 
+ 	"build": "npm run build" 
+ }, 
+ "author": "", 
+ "license": "" 
+} 
